@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0DC6DBB2C2FB8F50039A31F /* MessengerCloneSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC6DBA2C2FB8F50039A31F /* MessengerCloneSwiftUIApp.swift */; };
+		D0DC6DBD2C2FB8F50039A31F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC6DBC2C2FB8F50039A31F /* ContentView.swift */; };
+		D0DC6DBF2C2FB8F60039A31F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0DC6DBE2C2FB8F60039A31F /* Assets.xcassets */; };
+		D0DC6DC22C2FB8F60039A31F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0DC6DC12C2FB8F60039A31F /* Preview Assets.xcassets */; };
+		D0DC6DCE2C2FB9380039A31F /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC6DCD2C2FB9380039A31F /* SignUpView.swift */; };
+		D0DC6DDB2C2FC3860039A31F /* AuthenticationMainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC6DDA2C2FC3860039A31F /* AuthenticationMainButton.swift */; };
+		D0DC6DDD2C2FC56D0039A31F /* AuthenticationTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC6DDC2C2FC56D0039A31F /* AuthenticationTextField.swift */; };
+		D0DC6DDF2C2FC6AE0039A31F /* AuthenticationSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DC6DDE2C2FC6AE0039A31F /* AuthenticationSecureField.swift */; };
+		D0F3A4BA2C2FCA14006FEB4B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F3A4B92C2FCA14006FEB4B /* LoginView.swift */; };
+		D0F3A4BC2C2FCA56006FEB4B /* MessengerLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F3A4BB2C2FCA56006FEB4B /* MessengerLogoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D0DC6DB72C2FB8F50039A31F /* MessengerCloneSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MessengerCloneSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0DC6DBA2C2FB8F50039A31F /* MessengerCloneSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerCloneSwiftUIApp.swift; sourceTree = "<group>"; };
+		D0DC6DBC2C2FB8F50039A31F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D0DC6DBE2C2FB8F60039A31F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0DC6DC12C2FB8F60039A31F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D0DC6DCD2C2FB9380039A31F /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		D0DC6DDA2C2FC3860039A31F /* AuthenticationMainButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationMainButton.swift; sourceTree = "<group>"; };
+		D0DC6DDC2C2FC56D0039A31F /* AuthenticationTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationTextField.swift; sourceTree = "<group>"; };
+		D0DC6DDE2C2FC6AE0039A31F /* AuthenticationSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationSecureField.swift; sourceTree = "<group>"; };
+		D0F3A4B92C2FCA14006FEB4B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D0F3A4BB2C2FCA56006FEB4B /* MessengerLogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerLogoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0DC6DB42C2FB8F50039A31F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0DC6DAE2C2FB8F50039A31F = {
+			isa = PBXGroup;
+			children = (
+				D0DC6DB92C2FB8F50039A31F /* MessengerCloneSwiftUI */,
+				D0DC6DB82C2FB8F50039A31F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0DC6DB82C2FB8F50039A31F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0DC6DB72C2FB8F50039A31F /* MessengerCloneSwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0DC6DB92C2FB8F50039A31F /* MessengerCloneSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				D0DC6DCF2C2FB93C0039A31F /* App */,
+				D0DC6DC82C2FB9180039A31F /* Core */,
+				D0DC6DD02C2FB9530039A31F /* Extenssions */,
+				D0DC6DC92C2FB91B0039A31F /* Model */,
+				D0DC6DCA2C2FB91F0039A31F /* Sevices */,
+				D0DC6DBE2C2FB8F60039A31F /* Assets.xcassets */,
+				D0DC6DC02C2FB8F60039A31F /* Preview Content */,
+			);
+			path = MessengerCloneSwiftUI;
+			sourceTree = "<group>";
+		};
+		D0DC6DC02C2FB8F60039A31F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D0DC6DC12C2FB8F60039A31F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D0DC6DC82C2FB9180039A31F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D0DC6DCB2C2FB9290039A31F /* Authentication */,
+				D0DC6DD12C2FB9A10039A31F /* Root */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		D0DC6DC92C2FB91B0039A31F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D0DC6DCA2C2FB91F0039A31F /* Sevices */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sevices;
+			sourceTree = "<group>";
+		};
+		D0DC6DCB2C2FB9290039A31F /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				D0DC6DD22C2FC1970039A31F /* Common */,
+				D0DC6DCC2C2FB92F0039A31F /* View */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		D0DC6DCC2C2FB92F0039A31F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D0DC6DCD2C2FB9380039A31F /* SignUpView.swift */,
+				D0F3A4B92C2FCA14006FEB4B /* LoginView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D0DC6DCF2C2FB93C0039A31F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D0DC6DBA2C2FB8F50039A31F /* MessengerCloneSwiftUIApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D0DC6DD02C2FB9530039A31F /* Extenssions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extenssions;
+			sourceTree = "<group>";
+		};
+		D0DC6DD12C2FB9A10039A31F /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				D0DC6DBC2C2FB8F50039A31F /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		D0DC6DD22C2FC1970039A31F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D0DC6DD92C2FC3650039A31F /* Components */,
+				D0DC6DD32C2FC19F0039A31F /* Modifiers */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D0DC6DD32C2FC19F0039A31F /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		D0DC6DD92C2FC3650039A31F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D0DC6DDA2C2FC3860039A31F /* AuthenticationMainButton.swift */,
+				D0DC6DDC2C2FC56D0039A31F /* AuthenticationTextField.swift */,
+				D0DC6DDE2C2FC6AE0039A31F /* AuthenticationSecureField.swift */,
+				D0F3A4BB2C2FCA56006FEB4B /* MessengerLogoView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0DC6DB62C2FB8F50039A31F /* MessengerCloneSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0DC6DC52C2FB8F60039A31F /* Build configuration list for PBXNativeTarget "MessengerCloneSwiftUI" */;
+			buildPhases = (
+				D0DC6DB32C2FB8F50039A31F /* Sources */,
+				D0DC6DB42C2FB8F50039A31F /* Frameworks */,
+				D0DC6DB52C2FB8F50039A31F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MessengerCloneSwiftUI;
+			productName = MessengerCloneSwiftUI;
+			productReference = D0DC6DB72C2FB8F50039A31F /* MessengerCloneSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0DC6DAF2C2FB8F50039A31F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D0DC6DB62C2FB8F50039A31F = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = D0DC6DB22C2FB8F50039A31F /* Build configuration list for PBXProject "MessengerCloneSwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0DC6DAE2C2FB8F50039A31F;
+			productRefGroup = D0DC6DB82C2FB8F50039A31F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0DC6DB62C2FB8F50039A31F /* MessengerCloneSwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0DC6DB52C2FB8F50039A31F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DC6DC22C2FB8F60039A31F /* Preview Assets.xcassets in Resources */,
+				D0DC6DBF2C2FB8F60039A31F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0DC6DB32C2FB8F50039A31F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0DC6DCE2C2FB9380039A31F /* SignUpView.swift in Sources */,
+				D0F3A4BA2C2FCA14006FEB4B /* LoginView.swift in Sources */,
+				D0DC6DBD2C2FB8F50039A31F /* ContentView.swift in Sources */,
+				D0DC6DBB2C2FB8F50039A31F /* MessengerCloneSwiftUIApp.swift in Sources */,
+				D0DC6DDB2C2FC3860039A31F /* AuthenticationMainButton.swift in Sources */,
+				D0DC6DDF2C2FC6AE0039A31F /* AuthenticationSecureField.swift in Sources */,
+				D0DC6DDD2C2FC56D0039A31F /* AuthenticationTextField.swift in Sources */,
+				D0F3A4BC2C2FCA56006FEB4B /* MessengerLogoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D0DC6DC32C2FB8F60039A31F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0DC6DC42C2FB8F60039A31F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0DC6DC62C2FB8F60039A31F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MessengerCloneSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = P4WXW6TMCC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MessengerCloneSwiftUI.MessengerCloneSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0DC6DC72C2FB8F60039A31F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MessengerCloneSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = P4WXW6TMCC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MessengerCloneSwiftUI.MessengerCloneSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0DC6DB22C2FB8F50039A31F /* Build configuration list for PBXProject "MessengerCloneSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0DC6DC32C2FB8F60039A31F /* Debug */,
+				D0DC6DC42C2FB8F60039A31F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0DC6DC52C2FB8F60039A31F /* Build configuration list for PBXNativeTarget "MessengerCloneSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0DC6DC62C2FB8F60039A31F /* Debug */,
+				D0DC6DC72C2FB8F60039A31F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0DC6DAF2C2FB8F50039A31F /* Project object */;
+}
