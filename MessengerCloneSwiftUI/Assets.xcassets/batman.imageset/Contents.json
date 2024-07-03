@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "what-do-you-think-of-these-batman-images-v0-qr2ajrcsl88c1.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

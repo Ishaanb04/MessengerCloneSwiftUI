@@ -31,12 +31,12 @@ struct SignUpView: View {
             .padding()
             Spacer()
             Divider()
-            navigationLink
+            navigationButton
         }
-        .navigationBarBackButtonHidden()
+        
     }
 
-    private var navigationLink: some View {
+    private var navigationButton: some View {
         Button {
             
             dismiss()

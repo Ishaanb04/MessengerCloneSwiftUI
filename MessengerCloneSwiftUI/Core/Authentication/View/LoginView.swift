@@ -18,15 +18,12 @@ struct LoginView: View {
                 VStack(spacing: 15) {
                     AuthenticationTextField(title: "Enter your email", textFieldText: $email)
                     AuthenticationSecureField(title: "Enter your password", secureFieldText: $password)
-
                     forgotPassword
 
                     AuthenticationMainButton(title: "Login") {
                         print("DEBUG: Login button pressed")
                     }
-
                     customORDivider
-
                     continueWithFacebookButton
                 }
                 .padding()
@@ -79,6 +76,7 @@ struct LoginView: View {
     private var navigationLink: some View {
         NavigationLink {
             SignUpView()
+                .navigationBarBackButtonHidden()
         } label: {
             HStack(spacing: 3) {
                 Text("Don't have an account?")
